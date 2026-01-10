@@ -1,4 +1,4 @@
--- Cursor theme colors from OpenCode
+-- Caret theme colors (based on OpenCode cursor theme)
 local colors = {
     none = "NONE",
     -- Base colors
@@ -6,11 +6,11 @@ local colors = {
     bg = "#181818",
     alt_bg = "#262626",
     panel = "#141414",
-    accent = "#e4e4e45e",
-    -- Grays
+    accent = "#6b7089",
+    -- Grays (converted from alpha to solid by blending with bg #181818)
     white = "#e4e4e4",
     gray = "#262626",
-    medium_gray = "#e4e4e45e",
+    medium_gray = "#6b7089",
     light_gray = "#e4e4e4",
     -- Primary colors
     blue = "#81a1c1",
@@ -30,12 +30,12 @@ local colors = {
     -- Cursor
     cursor_fg = "#181818",
     cursor_bg = "#e4e4e4",
-    -- Git/Diff
+    -- Git/Diff (solid colors for backgrounds)
     sign_add = "#3fa266",
     sign_change = "#81a1c1",
     sign_delete = "#e34671",
-    diff_add_bg = "#3fa26633",
-    diff_remove_bg = "#b8004933",
+    diff_add_bg = "#243d2d",
+    diff_remove_bg = "#3d2028",
     -- Diagnostics
     error = "#e34671",
     warning = "#f1b467",
@@ -43,10 +43,10 @@ local colors = {
     hint = "#82D2CE",
     -- Accents for backgrounds
     accent_blue = "#262626",
-    accent_green = "#3fa26633",
-    accent_red = "#b8004933",
-    -- Border colors
-    border = "#e4e4e413",
+    accent_green = "#243d2d",
+    accent_red = "#3d2028",
+    -- Border colors (solid versions)
+    border = "#303030",
     border_active = "#88c0d0",
 }
 
