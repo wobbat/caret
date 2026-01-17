@@ -12,14 +12,14 @@ function M.highlight(palette, opts)
     markdownCode = { fg = palette.pink },
     markdownCodeBlock = { fg = palette.fg },
     markdownCodeDelimiter = { fg = palette.medium_gray },
-    -- Headings (using purple like the cursor theme)
-    markdownH1 = { fg = palette.purple, bold = true },
-    markdownH2 = { fg = palette.purple, bold = true },
-    markdownH3 = { fg = palette.purple },
-    markdownH4 = { fg = palette.purple },
-    markdownH5 = { fg = palette.purple },
-    markdownH6 = { fg = palette.purple },
-    markdownHeadingDelimiter = { fg = palette.purple },
+    -- Headings
+    markdownH1 = { fg = palette.yellow, bold = true },
+    markdownH2 = { fg = palette.green, bold = true },
+    markdownH3 = { fg = palette.teal },
+    markdownH4 = { fg = palette.blue },
+    markdownH5 = { fg = palette.cyan },
+    markdownH6 = { fg = palette.orange },
+    markdownHeadingDelimiter = { fg = palette.yellow },
     markdownHeadingRule = { fg = palette.medium_gray },
     -- Links
     markdownId = { fg = palette.purple },
