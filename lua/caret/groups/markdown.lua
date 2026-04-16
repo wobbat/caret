@@ -3,15 +3,15 @@ local M = {}
 function M.highlight(palette, opts)
   return {
     -- Block elements
-    markdownBlockquote = { fg = palette.medium_gray },
-    markdownRule = { fg = palette.medium_gray },
+    markdownBlockquote = { fg = palette.light_gray },
+    markdownRule = { fg = palette.light_gray },
     -- Text formatting
     markdownBold = { fg = palette.yellow, bold = true },
     markdownItalic = { fg = palette.teal, italic = true },
     -- Code
     markdownCode = { fg = palette.pink },
     markdownCodeBlock = { fg = palette.fg },
-    markdownCodeDelimiter = { fg = palette.medium_gray },
+    markdownCodeDelimiter = { fg = palette.light_gray },
     -- Headings
     markdownH1 = { fg = palette.yellow, bold = true },
     markdownH2 = { fg = palette.green, bold = true },
@@ -20,12 +20,12 @@ function M.highlight(palette, opts)
     markdownH5 = { fg = palette.cyan },
     markdownH6 = { fg = palette.orange },
     markdownHeadingDelimiter = { fg = palette.yellow },
-    markdownHeadingRule = { fg = palette.medium_gray },
+    markdownHeadingRule = { fg = palette.light_gray },
     -- Links
     markdownId = { fg = palette.purple },
     markdownIdDeclaration = { fg = palette.blue },
-    markdownIdDelimiter = { fg = palette.medium_gray },
-    markdownLinkDelimiter = { fg = palette.medium_gray },
+    markdownIdDelimiter = { fg = palette.light_gray },
+    markdownLinkDelimiter = { fg = palette.light_gray },
     markdownLinkText = { fg = palette.blue },
     markdownUrl = { fg = palette.teal, underline = true },
     -- Lists

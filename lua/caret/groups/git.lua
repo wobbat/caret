@@ -10,7 +10,7 @@ function M.highlight(palette, opts)
     GitSignsAdd = { fg = palette.sign_add },
     GitSignsChange = { fg = palette.sign_change },
     GitSignsDelete = { fg = palette.sign_delete },
-    GitSignsCurrentLineBlame = { fg = palette.medium_gray },
+    GitSignsCurrentLineBlame = { fg = palette.light_gray },
     -- Diff highlights (inline)
     GitSignsAddInline = { bg = palette.diff_add_bg },
     GitSignsChangeInline = { bg = palette.accent_blue },
@@ -20,8 +20,8 @@ function M.highlight(palette, opts)
     diffRemoved = { fg = palette.sign_delete },
     diffChanged = { fg = palette.sign_change },
     diffFile = { fg = palette.cyan },
-    diffIndexLine = { fg = palette.medium_gray },
-    diffLine = { fg = palette.medium_gray },
+    diffIndexLine = { fg = palette.light_gray },
+    diffLine = { fg = palette.light_gray },
     diffNewFile = { fg = palette.sign_add },
     diffOldFile = { fg = palette.sign_delete },
   }

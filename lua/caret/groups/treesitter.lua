@@ -5,7 +5,7 @@ function M.highlight(palette, opts)
     -- Comments
     ["@comment"] = vim.tbl_extend(
       "force",
-      { fg = palette.medium_gray },
+      { fg = palette.light_gray },
       opts.styles.comments
     ),
     -- Annotations and attributes
@@ -62,13 +62,13 @@ function M.highlight(palette, opts)
     ["@field"] = { fg = palette.fg },
     ["@parameter"] = { fg = palette.fg },
     ["@parameter.reference"] = { fg = palette.fg },
-    ["@symbol"] = { fg = palette.medium_gray },
+    ["@symbol"] = { fg = palette.light_gray },
     ["@text"] = { fg = palette.fg },
     -- Punctuation
     ["@punctuation.delimiter"] = { fg = palette.fg },
     ["@tag.delimiter"] = { fg = palette.fg },
     ["@punctuation.bracket"] = { fg = palette.fg },
-    ["@punctuation.special"] = { fg = palette.medium_gray },
+    ["@punctuation.special"] = { fg = palette.light_gray },
     -- Strings
     ["@string"] = { fg = palette.pink },
     ["@string.regex"] = { fg = palette.pink },

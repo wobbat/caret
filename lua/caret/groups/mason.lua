@@ -31,7 +31,7 @@ function M.highlight(palette, opts)
       default = true,
     },
     MasonLink = { link = "MasonHighlight", default = true },
-    MasonMuted = { fg = palette.medium_gray, default = true },
+    MasonMuted = { fg = palette.light_gray, default = true },
     MasonMutedBlock = { bg = palette.accent, fg = palette.light_gray, default = true },
     MasonMutedBlockBold = {
       bg = palette.gray,

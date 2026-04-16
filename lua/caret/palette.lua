@@ -7,10 +7,11 @@ local colors = {
     alt_bg = "#262626",
     panel = "#141414",
     accent = "#6b7089",
-    -- Grays (converted from alpha to solid by blending with bg #181818)
+    -- Neutral tones
     white = "#e4e4e4",
     gray = "#262626",
-    medium_gray = "#6b7089",
+    -- Reserved for a future lighter surface variant; intentionally unused for now.
+    lighter_bg = "#6b7089",
     light_gray = "#e4e4e4",
     -- Primary colors
     blue = "#81a1c1",

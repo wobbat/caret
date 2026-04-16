@@ -30,12 +30,12 @@ function M.highlight(palette, opts)
     },
     Comment = vim.tbl_extend(
       "force",
-      { fg = palette.medium_gray },
+      { fg = palette.light_gray },
       opts.styles.comments
     ),
     Folded = { fg = palette.light_gray, bg = palette.alt_bg },
     FoldColumn = { fg = palette.light_gray, bg = palette.alt_bg },
-    LineNr = { fg = palette.medium_gray },
+    LineNr = { fg = palette.light_gray },
     Whitespace = { fg = palette.gray },
     VertSplit = { fg = palette.border, bg = palette.bg },
     CursorLine = {
@@ -68,7 +68,7 @@ function M.highlight(palette, opts)
     CursorIM = { fg = palette.bg, bg = palette.fg, reverse = false },
     TermCursor = { fg = palette.bg, bg = palette.fg, reverse = false },
     TermCursorNC = { fg = palette.alt_bg, bg = palette.alt_bg, reverse = false },
-    Conceal = { fg = palette.medium_gray },
+    Conceal = { fg = palette.light_gray },
     Directory = { fg = palette.blue },
     SpecialKey = { fg = palette.blue },
     Title = { fg = palette.blue },
@@ -104,7 +104,7 @@ function M.highlight(palette, opts)
     PreProc = { fg = palette.teal },
     Define = { fg = palette.teal },
     Macro = { fg = palette.cyan },
-    PreCondit = { fg = palette.medium_gray },
+    PreCondit = { fg = palette.light_gray },
     Special = { fg = palette.fg },
     SpecialChar = { fg = palette.pink },
     Tag = { fg = palette.blue },
@@ -112,7 +112,7 @@ function M.highlight(palette, opts)
     Delimiter = { fg = palette.fg },
     SpecialComment = vim.tbl_extend(
       "force",
-      { fg = palette.medium_gray },
+      { fg = palette.light_gray },
       opts.styles.comments
     ),
     Underlined = { underline = true },

@@ -4,12 +4,12 @@ function M.highlight(palette, opts)
   return {
     LazyButton = { fg = palette.fg },
     LazyButtonActive = { fg = palette.fg, bold = true },
-    LazyComment = { fg = palette.medium_gray },
+    LazyComment = { fg = palette.light_gray },
     LazyCommit = { fg = palette.white },
     LazyCommitIssue = { fg = palette.red },
     LazyCommitScope = { fg = palette.cyan },
     LazyCommitType = { fg = palette.cyan },
-    LazyDimmed = { fg = palette.medium_gray },
+    LazyDimmed = { fg = palette.light_gray },
     LazyDir = { fg = palette.gray_blue },
     LazyH1 = { fg = palette.fg, bold = true },
     LazyH2 = { fg = palette.fg },
@@ -29,7 +29,7 @@ function M.highlight(palette, opts)
     LazyReasonStart = { fg = palette.fg },
     LazySpecial = { fg = palette.fg },
     LazyTaskError = { fg = palette.red },
-    LazyTaskOutput = { fg = palette.medium_gray },
+    LazyTaskOutput = { fg = palette.light_gray },
     LazyUrl = { fg = palette.gray_blue },
     LazyValue = { fg = palette.medium_gray_blue },
   }
