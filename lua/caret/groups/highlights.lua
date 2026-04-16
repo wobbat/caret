@@ -26,7 +26,6 @@ function M.highlight(palette, opts)
     WildMenu = { fg = palette.fg, bg = palette.border },
     CursorLineNr = {
       fg = palette.light_gray,
-      bold = true,
     },
     Comment = vim.tbl_extend(
       "force",
@@ -72,7 +71,7 @@ function M.highlight(palette, opts)
     Directory = { fg = palette.blue },
     SpecialKey = { fg = palette.blue },
     Title = { fg = palette.blue },
-    ErrorMsg = { fg = palette.error, bg = palette.bg, bold = true },
+    ErrorMsg = { fg = palette.error, bg = palette.bg },
     Search = { fg = palette.orange, bg = palette.alt_bg },
     IncSearch = { fg = palette.alt_bg, bg = palette.sign_delete },
     Substitute = { fg = palette.alt_bg, bg = palette.orange },
@@ -116,11 +115,11 @@ function M.highlight(palette, opts)
       opts.styles.comments
     ),
     Underlined = { underline = true },
-    Bold = { bold = true },
+    Bold = {},
     Italic = { italic = true },
-    Ignore = { fg = palette.cyan, bg = palette.bg, bold = true },
-    Todo = { fg = palette.red, bg = palette.bg, bold = true },
-    Error = { fg = palette.error, bg = palette.bg, bold = true },
+    Ignore = { fg = palette.cyan, bg = palette.bg },
+    Todo = { fg = palette.red, bg = palette.bg },
+    Error = { fg = palette.error, bg = palette.bg },
     TabLine = { fg = palette.gray, bg = palette.alt_bg },
     TabLineSel = { fg = palette.white, bg = palette.alt_bg },
     TabLineFill = { fg = palette.white, bg = palette.alt_bg },

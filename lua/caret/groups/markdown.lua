@@ -6,15 +6,15 @@ function M.highlight(palette, opts)
     markdownBlockquote = { fg = palette.light_gray },
     markdownRule = { fg = palette.light_gray },
     -- Text formatting
-    markdownBold = { fg = palette.yellow, bold = true },
+    markdownBold = { fg = palette.yellow },
     markdownItalic = { fg = palette.teal, italic = true },
     -- Code
     markdownCode = { fg = palette.pink },
     markdownCodeBlock = { fg = palette.fg },
     markdownCodeDelimiter = { fg = palette.light_gray },
     -- Headings
-    markdownH1 = { fg = palette.yellow, bold = true },
-    markdownH2 = { fg = palette.green, bold = true },
+    markdownH1 = { fg = palette.yellow },
+    markdownH2 = { fg = palette.green },
     markdownH3 = { fg = palette.teal },
     markdownH4 = { fg = palette.blue },
     markdownH5 = { fg = palette.cyan },

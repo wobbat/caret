@@ -38,7 +38,7 @@ function M.highlight(palette, opts)
       opts.styles.lsp
     ),
     -- Other LSP
-    LspSignatureActiveParameter = { bg = palette.alt_bg, bold = true },
+    LspSignatureActiveParameter = { bg = palette.alt_bg },
     LspCodeLens = { fg = palette.light_gray },
     LspInlayHint = { fg = palette.light_gray },
   }

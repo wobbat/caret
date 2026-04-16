@@ -7,7 +7,7 @@ local DEFAULT = {
         keywords = {},
         functions = {},
         variables = {},
-        type = { bold = true },
+        type = {},
         lsp = { underline = true },
     },
 }

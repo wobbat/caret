@@ -19,14 +19,14 @@ local colors = {
 
 return {
     normal = {
-        a = { fg = colors.bg, bg = colors.cyan, gui = "bold" },
+        a = { fg = colors.bg, bg = colors.cyan },
         b = { fg = colors.fg, bg = colors.panel },
         c = { fg = colors.info, bg = colors.bg },
     },
-    insert = { a = { fg = colors.bg, bg = colors.green, gui = "bold" } },
-    visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
-    command = { a = { fg = colors.bg, bg = colors.yellow, gui = "bold" } },
-    replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
+    insert = { a = { fg = colors.bg, bg = colors.green } },
+    visual = { a = { fg = colors.bg, bg = colors.purple } },
+    command = { a = { fg = colors.bg, bg = colors.yellow } },
+    replace = { a = { fg = colors.bg, bg = colors.red } },
     inactive = {
         a = { fg = colors.inactive, bg = colors.bg },
         b = { fg = colors.inactive, bg = colors.bg },

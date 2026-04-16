@@ -27,7 +27,7 @@ require("icbrg").setup({
     keywords = {},
     functions = {},
     variables = {},
-    type = { bold = true },
+    type = {},
     lsp = { underline = true }
   },
 })

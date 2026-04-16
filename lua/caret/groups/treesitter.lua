@@ -84,7 +84,7 @@ function M.highlight(palette, opts)
     -- Keywords and structures
     ["@keyword.operator"] = { fg = palette.teal },
     ["@structure"] = { fg = palette.teal },
-    ["@strong"] = { fg = palette.yellow, bold = true },
+    ["@strong"] = { fg = palette.yellow },
     ["@query.linter.error"] = { fg = palette.warning },
   }
 end

@@ -3,7 +3,7 @@ local M = {}
 function M.highlight(palette, opts)
   return {
     LazyButton = { fg = palette.fg },
-    LazyButtonActive = { fg = palette.fg, bold = true },
+    LazyButtonActive = { fg = palette.fg },
     LazyComment = { fg = palette.light_gray },
     LazyCommit = { fg = palette.white },
     LazyCommitIssue = { fg = palette.red },
@@ -11,7 +11,7 @@ function M.highlight(palette, opts)
     LazyCommitType = { fg = palette.cyan },
     LazyDimmed = { fg = palette.light_gray },
     LazyDir = { fg = palette.gray_blue },
-    LazyH1 = { fg = palette.fg, bold = true },
+    LazyH1 = { fg = palette.fg },
     LazyH2 = { fg = palette.fg },
     LazyNoCond = { fg = palette.blue },
     LazyNormal = { fg = palette.fg },
