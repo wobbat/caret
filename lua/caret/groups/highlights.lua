@@ -22,8 +22,8 @@ function M.highlight(palette, opts)
       bg = opts.transparent and palette.none or palette.bg,
     },
     Pmenu = { fg = palette.fg, bg = palette.alt_bg },
-    PmenuSel = { fg = palette.cyan, bg = palette.gray },
-    WildMenu = { fg = palette.cyan, bg = palette.gray },
+    PmenuSel = { reverse = true },
+    WildMenu = { reverse = true },
     CursorLineNr = {
       fg = palette.light_gray,
       bold = true,
@@ -46,8 +46,8 @@ function M.highlight(palette, opts)
     NormalFloat = {
       bg = opts.transparent and palette.none or palette.alt_bg,
     },
-    Visual = { bg = palette.gray },
-    VisualNOS = { bg = palette.alt_bg },
+    Visual = { reverse = true },
+    VisualNOS = { reverse = true },
     WarningMsg = { fg = palette.error, bg = palette.bg },
     DiffAdd = { bg = palette.accent_green },
     DiffText = { bg = palette.accent_blue },
